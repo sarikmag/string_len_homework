@@ -8,4 +8,13 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    a=s[0]
+    b=s[1]
+    c=s[2]
+    z=c+b+a
+    if z==s:
+        return True
+    else:
+        return False
+    
+print(main("asd"))
