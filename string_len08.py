@@ -11,10 +11,10 @@ def main(s):
     if len(s)%2==1:
         x=len(s)
         a=x-(x//2)
-        print(s[a-1])
+        return s[a-1]
     if len(s)%2==0:
         x=len(s)
         a=x//2
         b=a+1
-        print(s[a-1]+s[b-1])
-print(main("cool"))
+        return s[a-1]+s[b-1]
+print(main("casdsl"))
